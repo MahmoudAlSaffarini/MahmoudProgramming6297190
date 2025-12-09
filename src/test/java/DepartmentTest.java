@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class DepartmentTest {
 
     @Test
-    public void testDepartment() {
+    public void testIsDepartmentNameValid() {
         assertTrue(Department.isDepartmentNameValid("Computer Science and Mathematics"));
         assertTrue(Department.isDepartmentNameValid("General Chemistry"));
         assertFalse(Department.isDepartmentNameValid(""));

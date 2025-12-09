@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class AddressTest {
 
     @Test
-    public void testAddress() {
+    public void testIsPostalCodeValid() {
 
         assertTrue(Address.isPostalCodeValid("A1B2C3"));
         assertTrue(Address.isPostalCodeValid("a1b2c3"));

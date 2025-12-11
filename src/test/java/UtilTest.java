@@ -13,5 +13,6 @@ public class UtilTest {
         assertEquals("Programming",  Util.toTitleCase("programming"));
         assertEquals("", Util.toTitleCase(""));
         assertNull(Util.toTitleCase(null));
+        assertEquals("", Util.toTitleCase("        "));
     }
 }

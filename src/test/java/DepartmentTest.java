@@ -7,12 +7,12 @@ public class DepartmentTest {
 
     @Test
     public void testIsDepartmentNameValid() {
-        assertTrue(Department.isDepartmentNameValid("Computer Science and Mathematics"));
+        assertTrue(Department.isDepartmentNameValid("Computer Science And Mathematics"));
         assertTrue(Department.isDepartmentNameValid("General Chemistry"));
         assertFalse(Department.isDepartmentNameValid(""));
         assertFalse(Department.isDepartmentNameValid(null));
         assertFalse(Department.isDepartmentNameValid("Calculus 1"));
-        assertFalse(Department.isDepartmentNameValid("Computer!Science!and!Mathematics"));
+        assertFalse(Department.isDepartmentNameValid("Computer!Science!And!Mathematics"));
     }
 
     @Test
@@ -26,7 +26,7 @@ public class DepartmentTest {
 
     @Test
     public void testIfConstructorIsInvalid() {
-        Department department = new Department("Health and Life Sciences 200.B0");
+        Department department = new Department("Health And Life Sciences 200.B0");
 
         assertNull(department.getDepartmentId());
         assertNull(department.getDepartmentName());

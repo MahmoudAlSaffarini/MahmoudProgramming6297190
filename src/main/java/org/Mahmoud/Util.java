@@ -25,4 +25,3 @@ public class Util {
         return result.trim();
     }
 }
-

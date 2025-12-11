@@ -87,6 +87,4 @@ public class CourseTest {
 
         assertEquals(1, newAssignment.getScores().size());
      }
-
-
 }

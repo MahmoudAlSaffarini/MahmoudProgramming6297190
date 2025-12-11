@@ -20,7 +20,6 @@ public class Course {
     private List<Double> finalScores;
     private static int nextId = 1;
 
-
     public Course(String courseName, double credits, Department department) {
         this.courseName = Util.toTitleCase(courseName);
         this.credits = credits;
@@ -191,4 +190,3 @@ public class Course {
                 '}';
     }
 }
-

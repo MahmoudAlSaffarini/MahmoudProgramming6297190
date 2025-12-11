@@ -15,4 +15,6 @@ public class AddressTest {
         assertFalse(Address.isPostalCodeValid(null));
         assertFalse(Address.isPostalCodeValid("&&&&"));
     }
+
+
 }

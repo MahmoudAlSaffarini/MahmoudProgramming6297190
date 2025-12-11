@@ -11,6 +11,7 @@ public class UtilTest {
         assertEquals("Computer Science", Util.toTitleCase("computer science"));
         assertEquals("Mahmoud Al Saffarini", Util.toTitleCase("mAHMOUD aL sAfFarinI"));
         assertEquals("Programming",  Util.toTitleCase("programming"));
+
         assertEquals("", Util.toTitleCase(""));
         assertNull(Util.toTitleCase(null));
         assertEquals("", Util.toTitleCase("        "));

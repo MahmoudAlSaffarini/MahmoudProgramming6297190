@@ -16,7 +16,7 @@ public class DepartmentTest {
     }
 
     @Test
-    public void testConstructorValid() {
+    public void testIfConstructorIsValid() {
         Department department = new Department("computer science and mathematics");
 
         assertNotNull(department.getDepartmentId());
@@ -25,7 +25,7 @@ public class DepartmentTest {
     }
 
     @Test
-    public void testConstructorInvalid() {
+    public void testIfConstructorIsInvalid() {
         Department department = new Department("Health and Life Sciences 200.B0");
 
         assertNull(department.getDepartmentId());
